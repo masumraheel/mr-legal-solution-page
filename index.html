@@ -36,6 +36,7 @@
       </style>
 </head>
 <body class=".font-poppins">
+    <!-- nav start -->
     <nav class="container mx-auto max-w-screen-xl">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -51,7 +52,7 @@
                   <li><a>Contact Us</a></li>
                 </ul>
               </div>
-              <a class="size-27"><img src="./images/logo2.png" alt=""></a>
+              <a class="lg:size-27"><img src="./images/logo2.png" alt=""></a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 font-medium">
@@ -63,12 +64,30 @@
               </ul>
             </div>
             <div class="navbar-end">
-              <a class="btn bg-default2 text-white font-semibold text-lg">Free Consultation</a>
+              <a class="btn bg-default2 text-white font-semibold lg:text-lg">Free Consultation</a>
             </div>
           </div>
     </nav>
-    <header>
-
+    <!-- nav end -->
+    <header class="container mx-auto lg:max-w-screen-xl">
+        <!-- banner section start -->
+        <section>
+            <div class="hero lg:h-[550px] rounded-2xl" style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-20 rounded-2xl"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="lg:w-3/4">
+                    <h1 class="mb-4 lg:text-7xl font-extrabold">We Provide Effective <br>Legal Solutions</h1>
+                    <p class="mb-5 text-white">
+                        "Terms of Use: By accessing this website, you agree to abide by our terms and <br> Any unauthorized use is prohibited. For inquiries, contact legal@[yourwebsite].com."</p>
+                    <div>
+                        <input type="text" placeholder="Search your services" class="lg:ml-10 mb-2 input input-bordered lg:w-[500px] max-w-xs" />
+                        <button class="btn bg-default2 lg:w-[150px] ml-2">Get Started</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- banner section end -->
     </header>
     <main>
 
